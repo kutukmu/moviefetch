@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section ">
+      <div class="container is-fluid ">
+        <div class="notification has-text-centered">
+          <h1 class="title has-text-primary">
+            GIPHY Finder
+          </h1>
+          <p class="subtitle">My gif app with <strong>Bulma</strong>!</p>
+
+          <div class="columns">
+            <div class="column is-four-fifths is-offset-1">
+              <div class="field has-addons">
+                <input
+                  class="input is-primary is-rounded"
+                  type="text"
+                  placeholder="Find a post"
+                />
+
+                <button class="button is-success submit">
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="custom is-flex"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

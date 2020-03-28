@@ -1,0 +1,19 @@
+.button {
+  margin-left: 1rem;
+}
+
+.card {
+  width: 300px;
+  margin: 2rem;
+}
+
+.custom {
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
